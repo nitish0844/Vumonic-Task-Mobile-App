@@ -15,11 +15,11 @@ const GetEmail = () => {
     try {
       const response = await axios.post(`${Constants.BASE_URL}/emails`, {
         email: userEmail,
-        password: getPasscode, // Send email and passcode in the request body
+        password: getPasscode,
       });
       console.log(response.data);
       dispatch(setTotalEmails(response.data.total));
-      dispatch(setError('')); // Clear any previous error
+      dispatch(setError(''));
       dispatch(setEmailLoading(false));
     } catch (err) {
       dispatch(setError('Failed to fetch data'));

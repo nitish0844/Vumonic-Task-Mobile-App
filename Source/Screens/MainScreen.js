@@ -35,14 +35,14 @@ const MainScreen = () => {
         justifyContent: 'space-around',
         gap: Normalize(20),
         padding: Normalize(20),
-        position: 'relative', // To position the logout button absolutely
+        position: 'relative',
       }}>
       <TouchableOpacity
         style={{
           position: 'absolute',
           top: Normalize(10),
           right: Normalize(10),
-          zIndex: 1, // Ensure the button is above other elements
+          zIndex: 1,
         }}
         onPress={handleLogout}>
         <Ionicons name="log-out" size={Normalize(30)} color="#000" />

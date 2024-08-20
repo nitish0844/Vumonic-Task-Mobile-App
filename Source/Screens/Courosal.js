@@ -54,15 +54,6 @@ const MyCarousel = () => {
 
   return (
     <>
-      {/* <TouchableOpacity
-        style={{padding: Normalize(10)}}
-        onPress={() => navigation.goBack()}>
-        <Ionicons
-          name="chevron-back-circle"
-          size={Normalize(40)}
-          color={'#000'}
-        />
-      </TouchableOpacity> */}
       {loading ? (
         <MainLoader />
       ) : (

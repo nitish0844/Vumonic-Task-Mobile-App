@@ -28,8 +28,6 @@ const WebViewPage = () => {
           <Ionicons name="arrow-back" size={24} color="#000" />
         </TouchableOpacity>
 
-        {/* <Text style={styles.headerTitle}>WebView</Text> */}
-
         <TouchableOpacity onPress={handleDonePress}>
           <Text style={{fontWeight: 'bold', fontSize: 16, color: '#000'}}>
             Done

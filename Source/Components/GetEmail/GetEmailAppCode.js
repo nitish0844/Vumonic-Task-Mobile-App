@@ -100,7 +100,7 @@ const GetEmailAppCode = () => {
                 style={styles.input}
                 value={code}
                 onChangeText={handleCodeChange}
-                maxLength={19} // 12 characters + 2 spaces
+                maxLength={19}
                 keyboardType="ascii-capable"
                 autoCapitalize="none"
                 placeholder="Enter the App Code"
