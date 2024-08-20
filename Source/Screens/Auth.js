@@ -49,6 +49,11 @@ const GmailLogin = () => {
     setModalVisible(true);
   };
 
+  const handleAccept = async () => {
+    await setModalVisible(false);
+    navigation.navigate('WebViewPage');
+  };
+
   return (
     <View style={{flex: 1}}>
       <View style={styles.container}>
@@ -135,7 +140,8 @@ const GmailLogin = () => {
 
           <Button
             title="Accept"
-            onPress={() => navigation.navigate('WebViewPage')}
+            // onPress={() => navigation.navigate('WebViewPage')}
+            onPress={handleAccept}
           />
         </View>
       </Modal>

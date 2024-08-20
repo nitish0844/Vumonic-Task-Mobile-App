@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import {View, Text, StyleSheet, Dimensions, Platform} from 'react-native';
 import Carousel, {ParallaxImage} from 'react-native-snap-carousel';
 import Normalize from '../../utils/helper/Normalize';
-import {useNavigation} from '@react-navigation/native';
 import MainLoader from '../Components/Loader/MainLoader';
 
 const image1 = require('../Assets/Images/Carousel/BeautifulLandscape.jpg');
@@ -27,7 +26,6 @@ const data = [
 ];
 
 const MyCarousel = () => {
-  const navigation = useNavigation();
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {

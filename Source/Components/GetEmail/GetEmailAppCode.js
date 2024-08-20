@@ -121,7 +121,12 @@ const GetEmailAppCode = () => {
             </View>
           </View>
           <View>
-            <Text style={{fontSize: Normalize(12), fontWeight: 'bold'}}>
+            <Text
+              style={{
+                fontSize: Normalize(12),
+                fontWeight: 'bold',
+                color: '#000',
+              }}>
               Please enter the Email App passcode
             </Text>
           </View>
@@ -131,9 +136,9 @@ const GetEmailAppCode = () => {
                 style={{
                   fontSize: Normalize(12),
                   fontWeight: 'bold',
-                  color: 'blue',
+                  color: '#fff',
                   padding: Normalize(10),
-                  backgroundColor: '#fd6c6c',
+                  backgroundColor: 'blue',
                   borderRadius: Normalize(8),
                 }}>
                 Submit
