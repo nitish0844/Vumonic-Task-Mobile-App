@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "99338085084",
+    "project_id": "vumonic-69bbb",
+    "storage_bucket": "vumonic-69bbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99338085084:android:3316b2993707163bfeca19",
+        "android_client_info": {
+          "package_name": "com.vumonictaskmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99338085084-uvsmkng02kkvjpc6o8qd3g96mi2ahv81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vumonictaskmobileapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "99338085084-b7lcdss1o6deuon1inn2munc7j0o1a5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD_6LamolJdar3VvWaf1EymuO6Sa3K99k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99338085084-b7lcdss1o6deuon1inn2munc7j0o1a5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
